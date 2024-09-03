@@ -1,0 +1,56 @@
+:root{
+--primary--color:#5fbaa7;
+}
+/*to create variables root is usted to create css variable in html root
+variable created to store a color value or font size etc,
+if name more than one word use --
+*/
+h1{
+    color:var(--primary--color);/*to access variable*/
+}
+img{
+    height: 150px;
+    width:150px;
+}
+body{
+    background-color:#f4f4f4;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height:90vh;
+}
+.swap{
+    color:white;
+    background-color: var(--primary--color);
+    font-size:12px;
+    border-radius: 5px;;
+    border:none;
+    padding:5px 12px;
+}
+.currency{
+    padding:40px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.currency select{
+    padding:10px;
+    padding-right:20px;
+    font-size:16px;
+    border:1px solid #d3d3d3;
+    background:transparent;
+    outline: none;
+}
+.currency input{
+font-size: 30px;
+border:none;
+background-color: transparent;
+text-align:right;
+outline:none;
+}
+.swap-rate-container{
+    display:flex;
+    justify-content: space-between;
+    
+}
